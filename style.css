@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Header */
+header {
+    display: flex;
+    font-family: 'Tangerine', cursive;
+    font-size: 33px;
+}
+header a {
+    padding: 7px 20px 7px 7px;
+    color: rgba(0, 0, 0, 0.80);
+}
+ul {
+    list-style: none;
+    display: flex;
+    /* border: 1px solid red; */
+    width: 18vw;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(228, 17, 17, 0.849);
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background-color: #28A745;
+}
+#avril {
+    color: #28a745;
+    border-color: #28a745;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    padding: 11px 1px;
+    transition-duration: 0.4s;
+}
+#avril:hover {
+    background-color: #28a745;
+    color: white;
+}
+#lisa {
+    color: #DC3545;
+    border-color: #DC3545;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #DC3545;
+    border-radius: 5px;
+    padding: 11px 1px;
+    transition-duration: 0.4s;
+}
+#lisa:hover {
+    background-color: #DC3545;
+    color: white;
+}
+#taylor {
+    color: #FFC107;
+    border-color: #FFC107;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    padding: 11px 1px;
+    transition-duration: 0.4s;
+}
+#taylor:hover {
+    background-color: #FFC107;
+    color: white;
+}
+
+/* Jumbotron */
+#jumbotron {
+    display: flex;
+    background-image: url("img/queen.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    margin-top: -53px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#jum1 {
+    width: 25vw;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 31px;
+    background-color: rgba(27, 26, 26, 0.09);
+}
+#button-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#jum1 p {
+    font-size: 3em;
+    margin-bottom: 17px;
+}
+#jum1 button {
+    width: 100px;
+}
+
+/* Article */
+article {
+    display: flex;
+    padding: 7px;
+}
+img {
+    width: 50vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+iframe {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6749b8a9;
+}
