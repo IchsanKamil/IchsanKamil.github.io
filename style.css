@@ -13,6 +13,9 @@ body {
     float: left;
     margin: 1.66%;
 }
-h1, h2, h3{
+h1, h2{
+    text-align: center;
+}
+#notif {
     text-align: center;
 }
